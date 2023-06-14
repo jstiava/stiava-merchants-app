@@ -1,0 +1,57 @@
+.shield {
+    margin-bottom:0;
+    text-align:center;
+    padding:2rem
+   }
+   .path {
+    stroke-dasharray:37;
+    stroke-dashoffset:0;
+    animation:dash 1s linear alternate infinite
+   }
+   .path-second {
+    stroke-dasharray:30;
+    stroke-dashoffset:0;
+    animation:dash-second 1s linear alternate infinite
+   }
+   .path-small {
+    stroke-dasharray:21;
+    stroke-dashoffset:0;
+    animation:dash-small 1s linear alternate infinite
+   }
+   .path-small-second {
+    stroke-dasharray:19;
+    stroke-dashoffset:0;
+    animation:dash-small-second 1s linear alternate infinite
+   }
+   @keyframes dash {
+    from {
+     stroke-dashoffset:0
+    }
+    to {
+     stroke-dashoffset:37
+    }
+   }
+   @keyframes dash-second {
+    from {
+     stroke-dashoffset:0
+    }
+    to {
+     stroke-dashoffset:30
+    }
+   }
+   @keyframes dash-small {
+    from {
+     stroke-dashoffset:0
+    }
+    to {
+     stroke-dashoffset:21
+    }
+   }
+   @keyframes dash-small-second {
+    from {
+     stroke-dashoffset:0
+    }
+    to {
+     stroke-dashoffset:19
+    }
+   }

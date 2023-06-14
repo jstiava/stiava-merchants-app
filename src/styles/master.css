@@ -1,0 +1,124 @@
+
+
+
+
+
+/*
+Theme Name: Card Site
+Theme URI: https://card.wustl.edu/
+Author: Jeremy Stiava
+Author URI: https://card.wustl.edu/
+Description: This theme was created by Jeremy Stiava to prepare for full WordPress Theme Development. Intended for internal use only by Washington University in St. Louis
+Version: 1.0
+Tags: custom-header, custom-menu
+*/
+
+
+/* IMPORT FONTS */
+/* @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"); */
+
+
+/* GLOBAL VARIABLES */
+:root {
+
+  /* FONTS */
+  --sans: "Source Sans Pro", "Arial", "sans-serif";
+  --serif: "Libre Baskerville";
+  --icon: "Material Icons";
+
+  /* COLOR */
+  --red: #a51417;
+  --red-light: #BE1F45;
+  --grey-dark: #353535;
+  --grey-text: #555555;
+  --grey-light: #f1f1f1;
+  --green: #007360;
+  --blue: #005f85;
+  --blue-dark: #172752;
+  --blue-teal: #67C8C7;
+  --turqoise: #2b8282;
+  --orange: #D15F27;
+  --yellow: #FFCC00;
+  --white: #ffffff;
+
+  /* TYPE SCALE */
+  --type1: 2.986rem;
+  --type2: 2.488rem;
+  --type3: 2.074rem;
+  --type4: 1.728rem;
+  --type5: 1.44rem;
+  --type6: 1.2rem;
+  --type7: 1rem;
+  --type8: 0.75rem;
+
+  /* LINE HEIGHT */
+  --height1: 160%; /* Block & Pull Quote */
+  --height-default: 144%; /* Default */
+  --height2: 133.33%; /* Disclaimer & Lead Paragraph */
+  --height3: 125%; /* h2, h3, h4, h5, h6 */
+}
+
+/* ANIMATION PRESETS */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@keyframes popUp {
+  from {
+    display: none;
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@keyframes popDown {
+  from {
+    display: none;
+    opacity: 0;
+    transform: translateY(-5px) scale(0.97);
+  }
+  to {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0%) scale(1);
+  }
+}
+
+#dining_dashboard h6 {
+  margin-bottom: 15px;
+}
+
+.red {
+  color: var(--red);
+}
+
+.row,
+.col
+{
+  display: flex;
+}
+.col {
+  flex-direction: column;
+}
+.width-full
+{
+  width: 100%;
+}
+.space-between
+{
+  justify-content: space-between;
+}
+.align-items
+{
+  align-items: center;
+}

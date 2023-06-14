@@ -1,38 +1,436 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+#root {
+  margin: 0 auto;
+  max-width: 75vw;
+  height: fit-content;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes fade {
   from {
-    transform: rotate(0deg);
+    opacity: 0
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1
   }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hide 
+{
+  display: none;
+}
+
+
+
+/*
+Orientate flex boxes,
+give verticle columns their direction
+*/
+.location,
+.location_inner,
+.header,
+.about,
+.status,
+.info,
+section,
+section .subheader,
+.section_container
+{
+  display: flex;
+}
+
+
+.location_inner,
+.info,
+section,
+.section_container
+{
+ flex-direction: column;
+}
+
+
+.location,
+section .subheader
+{
+  align-items: center;
+  justify-content: center;
+}
+
+.header,
+.section_container
+{
+  justify-content: space-between;
+}
+
+.section_container {
+  margin-top: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.location,
+.location_inner,
+.header,
+section,
+section .subheader
+{
+  width: 100%;
+  height: fit-content;
+}
+
+
+
+/*
+Type Scale, Weight, Style
+*/
+p, h6
+{
+  font-family: 'Source Sans Pro', 'Arial';
+  font-size: 1.25rem;
+  line-height: 115%;
+  margin: 0;
+  padding: 0;
+}
+.status {
+  text-transform: uppercase;
+}
+
+.title 
+{
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.description
+{
+  font-size: 1rem;
+  width: 100%;
+}
+.current {
+  display: flex;
+  height: fit-content;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+.closed .current {
+  color: #3d3d3d !important;
+}
+
+
+/*
+Images 
+*/
+img 
+{
+  object-fit: contain; 
+  object-position: 0;
+}
+
+.circular img
+{
+  height: 60px;
+  width: 60px;
+  margin-right: 15px;
+}
+
+.wordmark img
+{
+  width: auto;
+  height: auto;
+  max-height: 60px;
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+.wordmark .title {
+  display: none;
+}
+.wordmark {
+  flex-direction: column;
+}
+
+.use_text_only img {
+  display: none;
+}
+
+
+
+
+/*
+Objects
+*/
+
+#locations
+{
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  max-width: 100%;
+}
+
+.locations_column
+{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  height: fit-content;
+}
+.locations_column:not(:last-child)
+{
+  margin-right: 15px;
+}
+.location
+{
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.0) 0px 7px 29px 0px;
+  transition: 0.2s ease-in-out;
+}
+
+.location:hover
+{
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  transition: 0.2s ease-in-out;
+}
+.location:not(:last-child)
+{
+  margin-bottom: 15px;
+}
+.location_inner > *:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+
+.about {
+  width: calc(100% - 150px);
+}
+
+.status {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+
+
+.location .top {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+.location.closed .top {
+  display: none;
+}
+.location.open .body > .toolbar {
+  display: none;
+}
+
+.location .top.image_does_not_exist {
+  height: 70px;
+  align-items: center;
+}
+.location .top.image_exists {
+  padding-bottom: 15px;
+}
+
+.location .toolbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+}
+
+.location .toolbar .group {
+  display: flex;
+  width: fit-content;
+}
+
+.location .chip,
+#react_app_control_panel .chip
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100vh;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro';
+  font-weight: 800;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 12px 20px;
+  font-size: 14.5px;
+}
+
+.location .body {
+  display: flex;
+  width: 100%;
+  padding: 45px;
+}
+
+
+.location .body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+}
+
+.location .body .toolbar {
+  margin-top: 20px;
+}
+
+
+
+.location .body.circular .mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.location .body.circular .mid_seal {
+  width: 25%;
+}
+.location .mid_seal .seal {
+  width: 100%;
+  height: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.location .body.circular .mid_content {
+  width: 70%;
+}
+
+
+.location .body .location_wordmark {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+/* Controls */
+#react_app_control_panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  padding: 30px;
+  background-image: linear-gradient(to bottom, #ffffff00, #ffffff75);
+  border-radius: 5px;
+}
+
+#react_app_control_panel input {
+  padding: 10px 20px;
+  font-family: 'Source Sans Pro';
+  border: none;
+  outline: none;
+  border-radius: 100vh;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  min-width: 400px;
+  max-width: 90vw;
+  margin-right: 5px;
+}
+
+#react_app_control_panel .group {
+  display: flex;
+}
+#react_app_control_panel .group > .chip:not(:last-child) {
+  margin-right: 5px;
+}
+#react_app_control_panel .chip {
+  box-shadow: rgba(100, 100, 111, 0) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+#react_app_control_panel .chip:hover {
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
+
+
+
+#central_window {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 10vh;
+  left: calc( 50vw - 300px);
+  width: 600px;
+  height: fit-content;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  padding: 30px;
+}
+
+
+#central_window.categories {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#central_window .window_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#central_window .window_header h6 {
+  
+  text-transform: uppercase;
+  font-size: 16px;
+}
+#central_window .window_header input.close_button {
+  border-radius: 100vh;
+  height: 40px;
+  width: 40px;
+  border: 3px solid #d7efff;
+  outline: 0;
+  box-shadow: none;
+  background-size: 70%;
+  background-position: center;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+#central_window.categories > input {
+  width: 32%;
+  height: 40px;
+  margin-top: 5px;
+  background-color: #ffffff;
+  border: 2px solid #003962;
+  color: #003962;
+  font-weight: 700;
+  outline: none;
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  border-radius: 100vh;
+  box-shadow: rgba(100, 100, 111, 0) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+#central_window.categories > input:hover {
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 1px 5px 0px;
 }

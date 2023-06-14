@@ -1,0 +1,500 @@
+body {
+  margin: 0;
+  background-color: var(--white);
+}
+
+/* UNIVERSAL CSS */
+* 
+{
+  box-sizing: border-box;
+}
+
+#content {
+  background-color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5
+{
+  font-family: var(--serif);
+  color: var(--grey-dark);
+}
+
+h1
+{
+  font-size: var(--type1);
+  line-height: var(--height3);
+  margin: 0;
+}
+
+h2
+{
+  font-size: var(--type2);
+  line-height: var(--height3);
+  margin: 0;
+}
+
+h3
+{
+  font-size: var(--type3);
+  line-height: var(--height3);
+  margin: 0;
+  /* letter-spacing: -0.03em; */
+}
+#content h3:not(:first-child)
+{
+  margin-top: 4rem;
+}
+
+h4,
+.event-name a
+{
+  font-size: var(--type4);
+  line-height: var(--height3);
+  margin: 0;
+}
+#content h4
+{
+  margin-top: 4rem;
+}
+
+h5
+{
+  font-size: var(--type5);
+  line-height: var(--height3);
+  margin: 0 0 10px 0 !important;
+  padding-top: 30px;
+}
+
+h6,
+.widgettitle,
+.event-date
+{
+  font-family: var(--sans);
+  font-size: var(--type6);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin: 0;
+  color: var(--grey-dark);
+}
+
+p,
+li
+{
+  font-family: var(--sans);
+  font-size: var(--type6);
+  color: var(--grey-dark);
+  margin: 0;
+}
+/* #content p+a,
+#content p+.wp-block-buttons
+{
+  margin-top: -10px;
+} */
+
+p.lead-text,
+section.page-header p
+{
+  font-size: var(--type4);
+  font-weight: 300;
+  color: var(--grey-dark);
+  
+}
+p.lead-text
+{
+  padding: 30px 0 30px 5vw;
+  border-left: 2px solid var(--grey-light);
+}
+
+:not(p) .wp-block-button__link,
+#content :not(p) a:not(.location),
+#content :not(p) a:not(.location),
+footer a,
+#dining_dashboard button
+{
+  display: flex;
+	width: fit-content;
+	height: fit-content;
+	padding: 8px 12px;
+	background-color: var(--white);
+  color: var(--red);
+  border: 4px solid var(--red);
+	text-decoration: none;
+	font-family: var(--sans);
+	font-weight: 700;
+  border-radius: 1px;
+	font-size: var(--type7);
+	line-height: var(--height3);
+	text-transform: uppercase;
+  transition: 0.2s;
+  cursor: pointer;
+}
+:not(p) .wp-block-button__link:hover,
+#content :not(p) a:not(.location):hover,
+footer a:hover,
+#dining_dashboard button:hover
+{
+	background-color: var(--red);
+  color: var(--white);
+  transition: 0.2s;
+
+}
+:not(p) .wp-block-button.white-link .wp-block-button__link,
+:not(p) > a.white-link,
+footer a:hover
+{
+  background-color: var(--red);
+  color: var(--white);
+}
+
+/*
+* Links included in paragraphs 
+*/
+body #content p a {
+  display: inline !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  color: var(--red) !important;
+  text-underline-offset: 4px !important;
+  text-transform: none !important;
+  font-size: var(--type6) !important;
+  font-weight: normal !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+}
+body #content p a:hover {
+  color: var(--red-light) !important;
+}
+
+.linklist {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+}
+.linklist > *:not(:last-child) {
+  margin: 0 5px 0 0;
+}
+
+/* Content */
+.wrapper
+{
+  display: flex;
+  width: 100%;
+  padding: 0 5%;
+  height: fit-content;
+}
+.wrapper > *:not(:last-child)
+{
+  padding: 5% 5% 0 0;
+}
+
+.content.front-page,
+.sidebar.front-page
+{
+  display: flex;
+  flex-direction: column;
+}
+.content .container > *:not(:last-child),
+.sidebar .container > *:not(:last-child)
+{
+  margin-bottom: 30px;
+}
+
+.content.front-page {
+  width: 65%;
+}
+.sidebar.front-page {
+  position: absolute;
+  /* margin-top: -25px; */
+  margin-left: 60%;
+  width: 35%;
+  padding: 5%;
+  border-left: 2px solid var(--grey-light);
+  border-top: 2px solid var(--grey-light);
+  background-color: var(--white);
+}
+
+.colorblock {
+  padding: 45px;
+}
+.colorblock > *:not(:last-child) {
+  margin-bottom: 15px;
+}
+/* Warning posts */
+.colorblock :is(p, h5, h6) {
+  padding: 0 !important;
+}
+.colorblock.warning a {
+  color: var(--red);
+	text-decoration: none;
+	font-family: var(--sans);
+	font-weight: 700;
+  border-radius: 1px;
+	font-size: var(--type7);
+	line-height: var(--height3);
+	/* text-transform: uppercase; */
+}
+
+#content .container {
+  display: flex;
+  flex-direction: column;
+}
+#content:not(.front-page) > .container {
+  width: 70vw;
+  padding: 90px 7.5vw;
+  border-right: 2px solid var(--grey-light);
+}
+#content:not(.front-page) > .container > *:not(:last-child){
+  margin-bottom: 15px;
+}
+
+
+.wp-block-group {
+  padding: 4rem;
+  border: 2px solid var(--grey-text);
+  border-radius: 5px;
+}
+.wp-block-group__inner-container {
+  display: flex;
+  flex-direction: column;
+}
+.wp-block-group__inner-container > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.wp-block-group__inner-container > :is(h2, h3) {
+  max-width: 70%;
+}
+.wp-block-group__inner-container > .wp-block-buttons a {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding-left: 0 !important;
+  background-color: transparent !important;
+  text-transform:none !important;
+  color: var(--red) !important;
+}
+.wp-block-group__inner-container > .wp-block-buttons a::after {
+  display: flex;
+  content: " ";
+  background-size: cover; background-position: center;
+  width: 15px; height: 12px;
+  transform: translateX(10px);
+  filter: brightness(0) invert(1);
+  transition: 0.2s;
+}
+.wp-block-group__inner-container > .wp-block-buttons a:hover::after {
+  transform: translateX(15px);
+  transition: 0.2s;
+}
+
+#content:not(.front-page) > .container.merchant_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 90px 7.5vw;
+  border-right: none;
+}
+article.merchants {
+  width: 49%;
+}
+
+
+/* WashU Card Block */
+.wp-block-washu-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  border-radius: 5px;
+  overflow: hidden;
+  border-bottom: 5px solid var(--red-light);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 60px !important;
+}
+.wp-block-washu-card:not(.washu-card__style-text-header) {
+  flex-direction: row;
+}
+.wp-block-washu-card:not(.washu-card__style-text-header) 
+.washu-card__image 
+{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: unset;
+  object-fit: cover;
+}
+.wp-block-washu-card:not(.washu-card__style-text-header) 
+.washu-card__image
+img  
+{
+  height: 100%;
+  object-fit: cover;
+}
+.wp-block-washu-card:not(.washu-card__style-text-header) 
+.washu-card__grouping {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 55%;
+  padding: 40px 0;
+}
+.wp-block-washu-card:not(.washu-card__style-text-header) 
+.washu-card__grouping:last-child {
+  display: none !important;
+}
+.wp-block-washu-card figure {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.wp-block-washu-card img {
+  width: 100%;
+  height: 100%;
+}
+.washu-card__content
+{
+  padding: 35px 50px 50px 50px;
+}
+.washu-card__title
+{
+  padding: 0 50px 0px 50px;
+}
+.washu-card__style-text-header {
+  box-shadow: 0 8px 18px rgb(0 0 0 / 15%);
+}
+.washu-card__style-text-header
+.washu-card__grouping
+{
+  padding-top: 55px;
+}
+.washu-card .wp-block-buttons {
+  padding-top: 25px;
+}
+
+/* Color themes of WashU Blocks */
+.wp-block-washu-card + :not(.wp-block-washu-card) {
+  margin-top: 45px;
+}
+.wp-block-washu-card:not(.washu-card__style-text-header) .wp-block-button a {
+  background-color: var(--white) !important;
+  border-color: var(--red) !important;
+  color: var(--red) !important;
+}
+.wp-block-washu-card:not(.washu-card__style-text-header) .wp-block-button a:hover {
+  background-color: var(--red) !important;
+  color: var(--white) !important;
+}
+.wp-block-washu-card:not(.washu-card__style-text-header):is(.red, .blue) .wp-block-button a {
+  color: var(--white) !important;
+  border-color: var(--white) !important;
+  background: transparent !important;
+}
+.wp-block-washu-card:not(.washu-card__style-text-header):is(.red, .blue) .wp-block-button a:hover{
+  background-color: var(--white) !important;
+}
+
+/*
+The content on each block is white to contast the dark color themes overlayed on the background.
+*/
+.wp-block-washu-card:not(.washu-card__style-text-header):is(.red, .blue) * {
+  color: var(--white) !important;
+}
+
+/* 
+If the block theme is red, style the background red.
+*/
+.wp-block-washu-card:not(.washu-card__style-text-header).red {
+  background-color: var(--red);
+  border-color: var(--red);
+}
+.wp-block-washu-card:not(.washu-card__style-text-header).red .wp-block-button a:hover{
+  color: var(--white) !important;
+}
+.wp-block-washu-card:not(.washu-card__style-text-header).red .wp-block-button a:hover{
+  color: var(--red) !important;
+}
+
+/* 
+If the block theme is blue, style the background red.
+*/
+.wp-block-washu-card:not(.washu-card__style-text-header).blue {
+  background-color: var(--blue-dark);
+  border-color: var(--blue-dark);
+}
+.wp-block-washu-card:not(.washu-card__style-text-header).blue .wp-block-button a:hover{
+  color: var(--white) !important;
+}
+.wp-block-washu-card:not(.washu-card__style-text-header).blue .wp-block-button a:hover{
+  color: var(--blue-dark) !important;
+}
+
+
+/* Featured */
+.featured_image {
+  background-color: #bebebe;
+}
+
+
+/* People */
+.person_icon {
+  height: 100px;
+  width: 100px;
+}
+
+.content.people {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 2vw 0;
+}
+
+.person_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  width: 400px;
+  margin: 0 15px 15px 0;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 2px solid var(--grey-light);
+}
+
+.person_card h5 {
+  text-align: center;
+}
+
+.person_card p {
+  margin: -5px 0 20px 0;
+}
+
+
+
+.person_card .portrait {
+  width: 250px;
+  height: 250px;
+  border-radius: 100vh;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid var(--grey-light);
+}
+
+
+/* Merchants Test */
+.buffer {
+  width: 100%;
+  height: 10vh;
+}
+
+#content.app {
+  width: 88vw !important;
+  margin: 0 auto;
+}

@@ -1,0 +1,38 @@
+footer {
+     background-color: var(--grey-dark);
+     margin-top: 10vh;
+     padding: 15vh 10vw calc(15vh + 40px) 10vw;
+}
+
+footer :is(p, h6) {
+     color: #fff;
+     font-weight: 500;
+}
+
+footer p {
+     font-size: var(--type7);
+}
+
+footer a {
+     position: relative;
+     top: 40px;
+     background-color: var(--grey-dark) !important;
+     border-color: var(--white) !important;
+     color: var(--white) !important;
+}
+
+footer a:hover {
+     background-color: var(--white) !important;
+     color: var(--grey-dark) !important;
+}
+
+footer h6 {
+     text-transform: none;
+     font-weight: 600;
+     letter-spacing: normal;
+}
+
+#footer_shield {
+     width: 50px;
+     margin-bottom: 10px;
+}
