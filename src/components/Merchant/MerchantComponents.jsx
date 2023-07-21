@@ -1,25 +1,24 @@
 import LazyLoad from 'react-lazy-load';
-import { clean_text } from '../helpers/esthetics';
+import { clean_text } from '../../helpers/esthetics';
 
 
 export const MerchantHead = ({ primary_color, secondary_color, isOpen, statusMessage, image }) => {
+    
+    return null;
+    // if (isOpen === false) {
+    //     return null;
+    // }
 
+    // if (image === false) {
+    //     return null;
+    // }
+    // else {
+    //     return (
+    //         <div className='merchant__head image' style={{ backgroundImage: 'url(' + image + ')' }}>
+    //         </div>
+    //     )
+    // }
 
-    if (isOpen === false) {
-        return null;
-    }
-
-    if (image === false) {
-        return null;
-    }
-    else {
-        return (
-            <LazyLoad>
-                <div className='merchant__head image' style={{ backgroundImage: 'url(' + image + ')' }}>
-                </div>
-            </LazyLoad>
-        )
-    }
 };
 
 export const Wordmark = ({ title, icon, icon_type }) => {
@@ -36,9 +35,9 @@ export const Wordmark = ({ title, icon, icon_type }) => {
 };
 
 export const Seal = (props) => {
-    if (props.icon_type === 'circular') {
+    if (props.icon_type === 'seal') {
         return (
-            <div className='seal'>
+            <div className='seal merchant__logoarea'>
                 <div className='seal_icon' style={{ backgroundImage: 'url(' + props.icon + ')' }}></div>
                 <div className='seal_info'>
                     {props.children}
@@ -48,7 +47,7 @@ export const Seal = (props) => {
     }
 
     return (
-        <div className='normal'>{props.children}</div>
+        <div className='normal merchant__logoarea'>{props.children}</div>
     );
 
 };
@@ -60,7 +59,7 @@ export const MerchantFoot = ({ primary_color, secondary_color, isOpen, statusMes
         <div className='merchant__foot'>
             <div className='toolbar'>
                 <div className='flex'>
-                    <div className='chip' style={{ backgroundColor: secondary_color + '25' }}>{statusMessage}</div>
+                    <div className='chip status' style={{ backgroundColor: secondary_color, color: primary_color }}>{statusMessage}</div>
                 </div>
                 <div className='flex'></div>
             </div>

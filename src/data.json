@@ -1,0 +1,1806 @@
+[
+	{
+		"id": 8358,
+		"title": "WashU Campus Shuttle System",
+		"description": "Whether hopping onto the Campus Circulator to get around campus or one of the seven neighborhood shuttles that extend to areas to and from the core of campus, the WashU shuttle system makes it easy for students, faculty and staff to get where you want to go.",
+		"link": "http:\/\/card.local\/merchant\/washu-campus-shuttle-system\/",
+		"categories": [
+			25
+		],
+		"location": [
+			0,
+			0
+		],
+		"schedule": {
+			"regular": false,
+			"special": null
+		},
+		"esthetics": {
+			"image": false,
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#172752",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8334,
+		"title": "Coffeestamp at Grounds for Change",
+		"description": "",
+		"link": "http:\/\/card.local\/merchant\/coffeestamp-grounds-for-change\/",
+		"categories": [
+			18,
+			21,
+			20
+		],
+		"location": [
+			0,
+			0
+		],
+		"schedule": {
+			"regular": false,
+			"special": null
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/new_Coffee-Stamp-Logo-1536x1536-1.png",
+			"icon_type": "circular",
+			"primary_color": "#4f0305",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8327,
+		"title": "Bauer Hall Café",
+		"description": "",
+		"link": "http:\/\/card.local\/merchant\/bauer-hall-cafe\/",
+		"categories": [
+			21,
+			20
+		],
+		"location": [
+			0,
+			0
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#020202",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8319,
+		"title": "Bear-y Sweet Shoppe",
+		"description": "The Bear-y Sweet Shoppe opened in January of 2015 by four Sophomores who challenged the space for student-run businesses at WashU. As the first food business ever opened on campus, the Bear-y Sweet Shoppe has given its owners the opportunity to push boundaries and try things that have never been done by students at WashU before. ",
+		"link": "http:\/\/card.local\/merchant\/bear-y-sweet-shoppe\/",
+		"categories": [
+			22
+		],
+		"location": [
+			0,
+			0
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/new-logo_2.png",
+			"icon_type": "circular",
+			"primary_color": "#f1f1f1",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8304,
+		"title": "Starbucks at Bauer Hall",
+		"description": "Serving your Starbucks favorites from with the Olin Business School.",
+		"link": "http:\/\/card.local\/merchant\/starbucks-at-bauer-hall\/",
+		"categories": [],
+		"location": [
+			0,
+			0
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/SBUX_BIG-b83bd76c-1022x1024.png",
+			"icon_type": "circular",
+			"primary_color": "#006341",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8195,
+		"title": "Bear Necessities",
+		"description": "Shop everyday essentials, WashU apperal, and gifts for yourself or your favorite WashU bear. Affiliated with the WashU Women's Society, every dollars spent contributes to student scholarships. ",
+		"link": "http:\/\/card.local\/merchant\/bear-necessities\/",
+		"categories": [
+			24
+		],
+		"location": [
+			38.645158134839924,
+			-90.313425774543617
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					null,
+					1,
+					false
+				],
+				"schemes": [
+					{
+						"min": 6.5,
+						"breaks": [
+							11,
+							12
+						],
+						"max": 16,
+						"asString": "10:30am-3pm, 4pm-8pm"
+					},
+					{
+						"min": 8,
+						"breaks": [],
+						"max": 13,
+						"asString": "12pm-5pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/bn-logo.png",
+			"icon_type": "wordmark",
+			"primary_color": "#ffffff",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8180,
+		"title": "Spartan Light Metal Products Makerspace",
+		"description": "Located in Jubel Hall, the Spartan Light Metal Products Makerspace is a place where Washington University students, faculty, and staff will bring innovative ideas to life and join together to develop ideas that will impact the community and the world. ",
+		"link": "http:\/\/card.local\/merchant\/spartan-light-metal-products-makerspace\/",
+		"categories": [
+			25
+		],
+		"location": [
+			0,
+			0
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					null,
+					null,
+					null
+				],
+				"schemes": [
+					{
+						"min": 8,
+						"breaks": [],
+						"max": 12,
+						"asString": "12pm-4pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/SpartanLMP_Makerspace_logo_v3-1024x391.png",
+			"icon_type": "wordmark",
+			"primary_color": "#ffffff",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8171,
+		"title": "Habif Health &amp; Wellness Center",
+		"description": "Our mission is to foster a compassionate and inclusive environment that supports each Washington University in St. Louis student’s physical, mental and emotional well-being. We commit to providing medical, mental health and health promotion services that recognize and celebrate the diversity of our campus community.",
+		"link": "http:\/\/card.local\/merchant\/habif-health-wellness-center\/",
+		"categories": [
+			25
+		],
+		"location": [
+			38.645689992314857,
+			-90.315229175399949
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					null,
+					null
+				],
+				"schemes": [
+					{
+						"min": 4,
+						"breaks": [],
+						"max": 12,
+						"asString": "8am-4pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/student-involvement-in-health-promotion.jpg",
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/wustl1-e1685752275144-1024x316.png",
+			"icon_type": "wordmark",
+			"primary_color": "#2b8282",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8165,
+		"title": "Peacock Diner",
+		"description": "Breakfast classics, delectable diner food, burgers, salads, homemade dessert, spiked milkshakes, and private dining seating.",
+		"link": "http:\/\/card.local\/merchant\/peacock-diner\/",
+		"categories": [
+			19,
+			18,
+			21,
+			20,
+			22
+		],
+		"location": [
+			38.655812036938855,
+			-90.302037861906129
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1
+				],
+				"schemes": [
+					{
+						"min": 4,
+						"breaks": [],
+						"max": 11,
+						"asString": "8am-3pm"
+					},
+					{
+						"min": 4,
+						"breaks": [],
+						"max": 17,
+						"asString": "8am-9pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/peacock-logo-1.png",
+			"icon_type": "circular",
+			"primary_color": "#19a4ad",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8158,
+		"title": "Olio",
+		"description": "Olio is such an unusual restaurant that Esquire Magazine enthusiastically described it as the “anti-restaurant.\" Olio’s undeniable energy and charm is inspired by the Bohemian scene of Tel Aviv, and has been a gathering place for creatives of all ages and backgrounds. ",
+		"link": "http:\/\/card.local\/merchant\/olio\/",
+		"categories": [],
+		"location": [
+			38.619362309895067,
+			-90.255477761006588
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					0
+				],
+				"schemes": [
+					{
+						"min": 7,
+						"breaks": [],
+						"max": 17,
+						"asString": "11am-9pm"
+					},
+					{
+						"min": 7,
+						"breaks": [],
+						"max": 18,
+						"asString": "11am-10pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/Olio.svg",
+			"icon_type": "wordmark",
+			"primary_color": "#ffffff",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8154,
+		"title": "Kaldi’s Café at Mid Campus Center",
+		"description": "The second Kaldi's cafe to be located at the Washington University Medical Campus, this popular coffee shop is on the second floor of the beautiful Mid Campus Center building in St. Louis, MO.  Unlike the Farrell cafe, this location offers non-vegetarian items",
+		"link": "http:\/\/card.local\/merchant\/kaldis-cafe-at-mid-campus-center\/",
+		"categories": [
+			19,
+			18,
+			20
+		],
+		"location": [
+			38.636399271779517,
+			-90.262040646617351
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					null,
+					null
+				],
+				"schemes": [
+					{
+						"min": 1.5,
+						"breaks": [],
+						"max": 13,
+						"asString": "5:30am-5pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/2721_mcc_wide-1024x539.webp",
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#ffffff",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8150,
+		"title": "Kaldi’s Café at Farrell",
+		"description": "Located on the campus of The Washington University School of Medicine in The Farrell Learning & Teaching Center.",
+		"link": "http:\/\/card.local\/merchant\/kaldis-cafe-at-farrell\/",
+		"categories": [
+			19,
+			18
+		],
+		"location": [
+			38.635392494463368,
+			-90.262895046564964
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					null,
+					null
+				],
+				"schemes": [
+					{
+						"min": 3.5,
+						"breaks": [],
+						"max": 10,
+						"asString": "7:30am-2pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/c365_Farrell_happy_faces-1024x682.webp",
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#ffffff",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8138,
+		"title": "Deli Divine",
+		"description": "Deli Divine is a celebration of Yiddish and Jewish American food culture. Inspired after the legendary Jewish delis of big cities all across the United States, we aim to offer our guests a comprehensive “Jewish Deli” experience ",
+		"link": "http:\/\/card.local\/merchant\/aoco\/",
+		"categories": [
+			18,
+			23,
+			20
+		],
+		"location": [
+			38.653631111222083,
+			-90.279464934724174
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"schemes": [
+					{
+						"min": 4,
+						"breaks": [],
+						"max": 14,
+						"asString": "8am-6pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/image_64834412.jpg",
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/DeliDivine.svg",
+			"icon_type": "wordmark",
+			"primary_color": "#f5f5f5",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8120,
+		"title": "Fields Foods &#8211; DeBailiviere",
+		"description": "Fields Foods is locally owned, locally operated, and locally focused grocery story committed to creating an inspired shopping experience for locals. They offer a wide selection of foods that are locally grown, sustainable, nutritious and made in large part by small growers and producers.",
+		"link": "http:\/\/card.local\/merchant\/fields-food-debailiviere\/",
+		"categories": [
+			23
+		],
+		"location": [
+			38.649360631193773,
+			-90.285525738207937
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"schemes": [
+					{
+						"min": 3,
+						"breaks": [],
+						"max": 18,
+						"asString": "7am-10pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/Untitled.jpg",
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#0e6c29",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8113,
+		"title": "Campus Creamery",
+		"description": "The Campus Creamery combines ice cream, cereal, and music into one out-of-this-world experience. Located on WashU’s South 40, our ice cream shop provides WashU students with a convenient and delicious late-night snack, seven days a week.",
+		"link": "http:\/\/card.local\/merchant\/campus-creamery\/",
+		"categories": [
+			22
+		],
+		"location": [
+			38.645823571529071,
+			-90.312502851319081
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					0
+				],
+				"schemes": [
+					{
+						"min": 16,
+						"breaks": [],
+						"max": 19,
+						"asString": "8pm-11pm"
+					},
+					{
+						"min": 16,
+						"breaks": [],
+						"max": 22,
+						"asString": "8pm-2am"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/use-campus-creamery-by-ginger-schulte-1024x683.jpg",
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/06\/CClogo-1024x494.png",
+			"icon_type": "wordmark",
+			"primary_color": "#08001d",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 8103,
+		"title": "Sumers Recreation Center",
+		"description": "Sumers is an innovative and inclusive facility, outfitted with state-of-the-art equipment that provides and individualized experience.",
+		"link": "http:\/\/card.local\/merchant\/sumers-recreation-center\/",
+		"categories": [
+			25
+		],
+		"location": [
+			0,
+			0
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/05\/3d4b3ed2c4e3926b4833556da313e89c64cae68b.jpg",
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/05\/unnamed-e1686421460371.png",
+			"icon_type": "circular",
+			"primary_color": "#a41e22",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7911,
+		"title": "Which Wich",
+		"description": "A sandwich shop on the Delmar Loop featuring  five meats, three cheeses, & your fave toppings. vegans, vegetarians and carnivores alike. Which Wich has something for everyone.",
+		"link": "http:\/\/card.local\/merchant\/which-wich\/",
+		"categories": [
+			21,
+			20
+		],
+		"location": [
+			38.656141473697659,
+			-90.308037346952631
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					1,
+					1,
+					1,
+					null,
+					null,
+					null,
+					0
+				],
+				"schemes": [
+					{
+						"min": 14,
+						"breaks": [],
+						"max": null,
+						"asString": ""
+					},
+					{
+						"min": 4,
+						"breaks": [],
+						"max": 12,
+						"asString": "8am-4pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/which_wich_Delmar-1024x576-1.jpg",
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/logo-bun.png",
+			"icon_type": "circular",
+			"primary_color": "#ffc425",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7908,
+		"title": "United Provisions",
+		"description": "United Provisions is transforming what a grocery store can be. They offer foods from around the world, fresh local foods, as well as gourmet prepared foods.",
+		"link": "http:\/\/card.local\/merchant\/united-provisions\/",
+		"categories": [
+			23
+		],
+		"location": [
+			38.655959737241496,
+			-90.301349729885175
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"schemes": [
+					{
+						"min": 4,
+						"breaks": [],
+						"max": 16.5,
+						"asString": "8am-8:30pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/united-provisions-open-graph-facebook-1024x538.webp",
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/unitedprovisions.svg",
+			"icon_type": "circular",
+			"primary_color": "#c44124",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7905,
+		"title": "Turmeric",
+		"description": "TURMERIC is a modern take on ancient indian traditions, an experience for the uninitiated and an adventure of flavor for those that already love it.",
+		"link": "http:\/\/card.local\/merchant\/turmeric\/",
+		"categories": [
+			21,
+			20
+		],
+		"location": [
+			38.656631326705053,
+			-90.307990960575665
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					false,
+					0,
+					0,
+					0,
+					null,
+					1,
+					1
+				],
+				"schemes": [
+					{
+						"min": 7.5,
+						"breaks": [
+							10.5,
+							13
+						],
+						"max": 17.5,
+						"asString": "11:30am-2:30pm, 5pm-9:30pm"
+					},
+					{
+						"min": 7.5,
+						"breaks": [
+							10.5,
+							13
+						],
+						"max": 18,
+						"asString": "11:30am-2:30pm, 5pm-10pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/TurmericLogo.png",
+			"icon_type": "wordmark",
+			"primary_color": "#020000",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7902,
+		"title": "Snarf&#8217;s Sandwiches",
+		"description": "Branch of a regional chain dispensing hot & cold sandwiches in a simple, counter-serve setting.",
+		"link": "http:\/\/card.local\/merchant\/snarfs-sandwiches-2\/",
+		"categories": [
+			19,
+			18,
+			21,
+			20
+		],
+		"location": [
+			38.651710310846987,
+			-90.30000085872166
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"schemes": [
+					{
+						"min": 5,
+						"breaks": [],
+						"max": 17,
+						"asString": "9am-9pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/atxskyline-1024x681.jpg",
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/snarfs-combo-logo.png",
+			"icon_type": "circular",
+			"primary_color": "#2e2e30",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7899,
+		"title": "Slim Chicken&#8217;s",
+		"description": "Counter-serve chain specializing in chicken dishes, plus Southern sides & desserts served in jars.",
+		"link": "http:\/\/card.local\/merchant\/slim-chickens\/",
+		"categories": [
+			21,
+			20
+		],
+		"location": [
+			0,
+			0
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"schemes": [
+					{
+						"min": 6,
+						"breaks": [],
+						"max": 20,
+						"asString": "10am-12pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#dd3333",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7896,
+		"title": "Pitaya",
+		"description": "Fun, fashion-forward boutiques with new arrivals weekly!",
+		"link": "http:\/\/card.local\/merchant\/pitaya\/",
+		"categories": [
+			24
+		],
+		"location": [
+			38.656055393563449,
+			-90.302498175920945
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					0
+				],
+				"schemes": [
+					{
+						"min": 7,
+						"breaks": [],
+						"max": 15,
+						"asString": "11am-7pm"
+					},
+					{
+						"min": 7,
+						"breaks": [],
+						"max": 16,
+						"asString": "11am-8pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/Pitaya_Classic_Logo.webp",
+			"icon_type": "wordmark",
+			"primary_color": "#ffffff",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7893,
+		"title": "Pastaria",
+		"description": "Updated Italian cooking in a slick, contemporary trattoria with an open kitchen.",
+		"link": "http:\/\/card.local\/merchant\/pastaria\/",
+		"categories": [
+			21
+		],
+		"location": [
+			38.649992277333482,
+			-90.335903745230667
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/image6.png",
+			"icon_type": "circular",
+			"primary_color": "#ef5c36",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7890,
+		"title": "Paperdolls Boutique",
+		"description": "For the woman looking for great, accessibly-priced fashion – Paperdolls is your resource for a stylish selection of dresses, tops, bottoms, and accessories.",
+		"link": "http:\/\/card.local\/merchant\/paperdolls-boutique\/",
+		"categories": [
+			24
+		],
+		"location": [
+			38.659378418671068,
+			-90.337832087557643
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					null
+				],
+				"schemes": [
+					{
+						"min": 6.5,
+						"breaks": [
+							14,
+							8
+						],
+						"max": 13,
+						"asString": "10:30am-6pm, 12pm-5pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/348s.jpg",
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/socialimage-1920w.webp",
+			"icon_type": "circular",
+			"primary_color": "#f6e0e9",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7887,
+		"title": "Olivia &amp; Oliver Nail Lounge",
+		"description": "Nail salon in Clayton where you'll receive the finest nail care and beauty services in an inviting and comfortable atmosphere.",
+		"link": "http:\/\/card.local\/merchant\/olivia-oliver-nail-lounge\/",
+		"categories": [
+			24
+		],
+		"location": [
+			38.634535825777419,
+			-90.311648731740263
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#7c6c50",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7884,
+		"title": "Nami Ramen",
+		"description": "At Nami Ramen, fresh wholesome ingredients are prepared in-store and carefully simmered for hours to produce a classic dish in their own special way. They've loaded each dish with lots of fresh vegetables, protein and noodles for an entire meal packed into one bowl. Sip, slurp and savor every bite.",
+		"link": "http:\/\/card.local\/merchant\/nami-ramen\/",
+		"categories": [
+			21,
+			20
+		],
+		"location": [
+			38.649975630224176,
+			-90.300370545230678
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#ec2034",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7881,
+		"title": "Millbrook Pharmacy",
+		"description": "A small local pharmacy that is the one-stop shop for all your health needs in St. Louis.",
+		"link": "http:\/\/card.local\/merchant\/millbrook-pharmacy\/",
+		"categories": [],
+		"location": [
+			38.65198504654019,
+			-90.315702602903201
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#2969b0",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7878,
+		"title": "Ladue Nails &amp; Spa",
+		"description": "From pedicures to manicures, Saint Louis's Ladue Nail and Spa provides all the necessities you need to leave ",
+		"link": "http:\/\/card.local\/merchant\/ladue-nails-spa\/",
+		"categories": [
+			24
+		],
+		"location": [
+			36,
+			-90.338052489412746
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#ffffff",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7868,
+		"title": "Kingside Express &#8211; Delmar",
+		"description": "A classic diner experience located across the street from The Pageant on Delmar Blvd.",
+		"link": "http:\/\/card.local\/merchant\/kingside-express-delmar\/",
+		"categories": [
+			19,
+			18,
+			20
+		],
+		"location": [
+			38.655209138997463,
+			-90.298588658721513
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"schemes": [
+					{
+						"min": 3,
+						"breaks": [],
+						"max": 10,
+						"asString": "7am-2pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/Kingside-Express_Partner-Listing-III.jpg",
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#020000",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7865,
+		"title": "Kaldi&#8217;s &#8211; Skinker",
+		"description": "Kaldi's on Skinker has long been a St. Louis hub for coffee, food, and socializing. The rustic décor and mountain feel give this café, formerly known as Kayak's Coffee, a unique atmosphere",
+		"link": "http:\/\/card.local\/merchant\/kaldis-coffee-skinker\/",
+		"categories": [
+			19,
+			18,
+			20
+		],
+		"location": [
+			38.649696893863734,
+			-90.300398718248573
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"schemes": [
+					{
+						"min": 2.5,
+						"breaks": [],
+						"max": 13,
+						"asString": "6:30am-5pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/c2d2_guests_waiting_at_skinker_cafe-min-1024x731.webp",
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/image-1.webp",
+			"icon_type": "circular",
+			"primary_color": "#212121",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7862,
+		"title": "Kaldi&#8217;s Coffee &#8211; DeMun",
+		"description": "The original Kaldi’s Coffehouse is situated in the historic DeMun neighborhood of Clayton overlooking Concordia Park. We first opened our doors here in 1994. Since then, fans have come from far and wide to enjoy our coffee drinks, house-made pastries, vegetarian fare and relaxing patio",
+		"link": "http:\/\/card.local\/merchant\/kaldis-coffee-demun\/",
+		"categories": [
+			19,
+			18,
+			20
+		],
+		"location": [
+			38.638809318228759,
+			-90.307711620103191
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#212121",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7859,
+		"title": "Insomnia Cookies &#8211; Delmar",
+		"description": "Insomnia Cookies is a chain of bakeries in the United States that specializes in delivering warm cookies, baked goods, and ice cream.",
+		"link": "http:\/\/card.local\/merchant\/insomnia-cookies-delmar\/",
+		"categories": [
+			22
+		],
+		"location": [
+			38.656093598963139,
+			-90.302793235295724
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					0
+				],
+				"schemes": [
+					{
+						"min": 7,
+						"breaks": [],
+						"max": 20,
+						"asString": "11am-12pm"
+					},
+					{
+						"min": 7,
+						"breaks": [],
+						"max": 21,
+						"asString": "11am-1am"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/118616535_4316263441748300_4528848699879462168_n_7BC18074-5056-A36A-0789F7D8A84049EA-7bc17ea25056a36_7bc187f3-5056-a36a-070a58bf2442b48e-removebg-preview1.png",
+			"icon_type": "circular",
+			"primary_color": "#461d58",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7856,
+		"title": "House of Wong",
+		"description": "A spacious sit-down cafe serving from a long Chinese menu with some Thai & Vietnamese dishes mixed in.",
+		"link": "http:\/\/card.local\/merchant\/house-of-wong\/",
+		"categories": [
+			21,
+			20
+		],
+		"location": [
+			38.649979651231376,
+			-90.331196274067025
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/image9.png",
+			"icon_type": "circular",
+			"primary_color": "#f6343f",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7853,
+		"title": "Half &amp; Half",
+		"description": "A quaint café setting in Clayton with classic American breakfast & lunch offerings plus gourmet coffee in a relaxed setting.",
+		"link": "http:\/\/card.local\/merchant\/half-half\/",
+		"categories": [
+			19,
+			18,
+			20
+		],
+		"location": [
+			38.652713302163995,
+			-90.342768758721647
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/clara-cakes-lg-1024x587.jpg",
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/half-and-half-logo.png",
+			"icon_type": "wordmark",
+			"primary_color": "#ffffff",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7850,
+		"title": "Global Quesadilla",
+		"description": "A local eatery boasting a variety of geographically themed quesadillas for your eating pleasure.",
+		"link": "http:\/\/card.local\/merchant\/global-quesadilla\/",
+		"categories": [
+			21,
+			20
+		],
+		"location": [
+			38.639003657170299,
+			-90.259019789412704
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#ff0000",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7847,
+		"title": "FroYo &#8211; Delmar",
+		"description": "froYo is premium self-serve frozen yogurt that proves great taste doesn’t require a sugar and fat overload.",
+		"link": "http:\/\/card.local\/merchant\/froyo-delmar\/",
+		"categories": [
+			22
+		],
+		"location": [
+			38.656174414997757,
+			-90.303877445230427
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					2
+				],
+				"schemes": [
+					{
+						"min": 11,
+						"breaks": [],
+						"max": 16,
+						"asString": "3pm-8pm"
+					},
+					{
+						"min": 9,
+						"breaks": [],
+						"max": 17,
+						"asString": "1pm-9pm"
+					},
+					{
+						"min": 9,
+						"breaks": [],
+						"max": 16,
+						"asString": "1pm-8pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/froyologo.png",
+			"icon_type": "circular",
+			"primary_color": "#fcfcfc",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7844,
+		"title": "Fozzie&#8217;s Sandwich Emporium",
+		"description": "Pint-sized lunch counter with its own garden serving big, inventive sandwiches & housemade chips.",
+		"link": "http:\/\/card.local\/merchant\/fozzies-sandwich-emporium\/",
+		"categories": [
+			21,
+			20
+		],
+		"location": [
+			38,
+			-90.318984074067757
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/qtq-95.webp",
+			"icon_type": "circular",
+			"primary_color": "#047a4f",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7838,
+		"title": "Eclipse Restaurant",
+		"description": "Retro, moon-themed hotel eatery with a rooftop terrace bar serving American fare & cocktails.",
+		"link": "http:\/\/card.local\/merchant\/eclipse-restaurant\/",
+		"categories": [
+			21,
+			20
+		],
+		"location": [
+			38.655888954542839,
+			-90.298808602903037
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1
+				],
+				"schemes": [
+					{
+						"min": 2.5,
+						"breaks": [
+							7,
+							13
+						],
+						"max": 21.5,
+						"asString": "6:30am-11am, 5pm-1:30am"
+					},
+					{
+						"min": 4,
+						"breaks": [
+							8,
+							13
+						],
+						"max": 21.5,
+						"asString": "8am-12pm, 5pm-1:30am"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/New-Moon-Room1.jpg",
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#ff4a06",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7835,
+		"title": "Domino&#8217;s",
+		"description": "From humble beginnings as a single pizza restaurant in 1960, Domino’s has become today’s recognized world leader in pizza delivery. ",
+		"link": "http:\/\/card.local\/merchant\/dominos\/",
+		"categories": [
+			21,
+			20
+		],
+		"location": [
+			38.652300090406705,
+			-90.315706702903228
+		],
+		"schedule": {
+			"regular": false,
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/dominos-pizza-4-logo-png-transparent-1024x1024.png",
+			"icon_type": "circular",
+			"primary_color": "#ffffff",
+			"secondary_color": "#000000",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7832,
+		"title": "CVS Pharmacy on the Loop",
+		"description": "An American retail corporation also known as, and originally named, the Consumer Value Store and was founded in Lowell, Massachusetts, in 1963.",
+		"link": "http:\/\/card.local\/merchant\/cvs-pharmacy-on-the-loop\/",
+		"categories": [
+			23
+		],
+		"location": [
+			38.655669954819651,
+			-90.30008008821774
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"schemes": [
+					{
+						"min": 4,
+						"breaks": [],
+						"max": 20,
+						"asString": "8am-12pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/image7-1024x576.png",
+			"icon_type": "wordmark",
+			"primary_color": "#da1a00",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7828,
+		"title": "Crazy Bowls &amp; Wraps",
+		"description": "A Saint Louis based company that is committed to providing wholesome ingredients, real food made from scratch, and creating healthier communities. ",
+		"link": "http:\/\/card.local\/merchant\/crazy-bowls-wraps\/",
+		"categories": [
+			21,
+			20
+		],
+		"location": [
+			38.65112666184362,
+			-90.327356164401451
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"schemes": [
+					{
+						"min": 4,
+						"breaks": [],
+						"max": 17,
+						"asString": "8am-9pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/cbw-logo-1-1024x98.png",
+			"icon_type": "wordmark",
+			"primary_color": "#028f76",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7825,
+		"title": "Colleen&#8217;s",
+		"description": "A small bakery and café that takes pride in serving their loyal and new guests top quality coffee, breakfast, lunch, and sweets made from scratch daily with the freshest ingredients available.",
+		"link": "http:\/\/card.local\/merchant\/colleens-cookies\/",
+		"categories": [
+			19,
+			18,
+			20,
+			22
+		],
+		"location": [
+			38.648879974693074,
+			-90.326507831739661
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					false,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"schemes": [
+					{
+						"min": 3,
+						"breaks": [],
+						"max": 10,
+						"asString": "7am-2pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/32971Colleens_logo_big_2000x2000.png",
+			"icon_type": "circular",
+			"primary_color": "#6c7529",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7822,
+		"title": "Chicken Out",
+		"description": "A casual atmosphere fried chicken restaurant that features pressure fried chicken.",
+		"link": "http:\/\/card.local\/merchant\/chicken-out\/",
+		"categories": [
+			21,
+			20
+		],
+		"location": [
+			38.6557255245555,
+			-90.29948500290304
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"schemes": [
+					{
+						"min": 7,
+						"breaks": [],
+						"max": 17,
+						"asString": "11am-9pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/chicken_out.svg",
+			"icon_type": "wordmark",
+			"primary_color": "#21c6be",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7819,
+		"title": "Chicago Fish &amp; Chicken Grill &#8211; University City",
+		"description": "Classic and quick eats done well with hearty portions at an affordable price.",
+		"link": "http:\/\/card.local\/merchant\/chicago-fish-chicken-grill-university-city\/",
+		"categories": [
+			21,
+			20
+		],
+		"location": [
+			38.662614776681622,
+			-90.308067374066454
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					2
+				],
+				"schemes": [
+					{
+						"min": 6,
+						"breaks": [],
+						"max": 19,
+						"asString": "10am-11pm"
+					},
+					{
+						"min": 6,
+						"breaks": [],
+						"max": 20,
+						"asString": "10am-12pm"
+					},
+					{
+						"min": 7,
+						"breaks": [],
+						"max": 18,
+						"asString": "11am-10pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": false,
+			"icon": false,
+			"icon_type": "use_text_only",
+			"primary_color": "#111111",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7816,
+		"title": "Blueprint Coffee",
+		"description": "Coffee shop with a modern atmosphere pouring in-house roasts and espresso drinks. Also makes breakfast sandwiches, bagels, and pastries.",
+		"link": "http:\/\/card.local\/merchant\/blueprint-coffee\/",
+		"categories": [
+			18
+		],
+		"location": [
+			38.655711171566757,
+			-90.300550814337271
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"schemes": [
+					{
+						"min": 4,
+						"breaks": [],
+						"max": 12,
+						"asString": "8am-4pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/ben-main.webp",
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/blueprint-coffee-color-logo.jpg",
+			"icon_type": "wordmark",
+			"primary_color": "#0083a9",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	},
+	{
+		"id": 7813,
+		"title": "Blick Art Supply",
+		"description": "Retailer featuring a large assortment of arts and crafts supplies, including paint, clay & canvases.",
+		"link": "http:\/\/card.local\/merchant\/blick-art-supply\/",
+		"categories": [],
+		"location": [
+			38.655901859087479,
+			-90.304145431739357
+		],
+		"schedule": {
+			"regular": {
+				"days": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1
+				],
+				"schemes": [
+					{
+						"min": 6,
+						"breaks": [],
+						"max": 14,
+						"asString": "10am-6pm"
+					},
+					{
+						"min": 8,
+						"breaks": [],
+						"max": 13,
+						"asString": "12pm-5pm"
+					}
+				]
+			},
+			"special": false
+		},
+		"esthetics": {
+			"image": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/541991__Y12ZtQcJaMcpq_VWfDQsG8zi8uc-6OH7PkXz-N03YM.jpg",
+			"icon": "http:\/\/card.local\/wp-content\/uploads\/2023\/01\/image-2.webp",
+			"icon_type": "wordmark",
+			"primary_color": "#020000",
+			"secondary_color": "#ffffff",
+			"navigate": ""
+		}
+	}
+]

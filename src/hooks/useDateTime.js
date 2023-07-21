@@ -6,11 +6,24 @@ import { useEffect, useState } from 'react'
  * @returns 
  */
 const useDateTime = () => {
+    const [todaySerialDate, setTodaySerialDate] = useState(0);
     const [date, setDate] = useState(new Date());
     const [serialDate, setSerialDate] = useState(0);
     const [day, setDay] = useState(0);
     const [hourMin, setHourMin] = useState(0);
-    const [recent, setRecent] = useState(null);
+
+
+    /**
+     * Load on mount.
+     * 
+     */
+    useEffect(() => {
+        const value = getSerialDate(date.getFullYear(), date.getMonth() + 1, date.getDate());
+        setSerialDate(value);
+        setTodaySerialDate(value);
+        setDay(day_value_to_index(date.getDay()));
+        setHourMin(getHourMin(date.getHours(), date.getMinutes()));
+    }, []);
 
 
 
@@ -21,7 +34,7 @@ const useDateTime = () => {
      * @returns {float} an adjusted hour value with minutes added as a decimal place.
      * @example const value = getHourMin(23, 30) // Output: 19.5 
      */
-    function getHourMin(hour, minute) {
+    const getHourMin = (hour, minute) => {
         let value = hour - 4;
         if (value < 0) {
             value = 24 + hour;
@@ -39,51 +52,35 @@ const useDateTime = () => {
      * @param {*} index 
      * @returns 
      */
-    function getSerialDate(year, month, index) {
+    const getSerialDate = (year, month, index) => {
         let value = year;
-        month < 10 ? value *= 10 : value += month;
-        index < 10 ? value *= 10 : value += index;
+        value *= 100;
+        value += month;
+
+        value *= 100;
+        value += index;
         return value;
     }
-
-
 
     /**
      * 
      * @param {*} day 
      * @returns 
      */
-    function day_value_to_index(day) {
+    const day_value_to_index = (day) => {
         day = day - 1;
         return day < 0 ? 6 : day;
     }
 
-
-
-    function checkRecency() {
-        const last_location_collection = localStorage.getItem("last_location_collection");
-        const savedDate = new Date(last_location_collection);
-        const differenceInMinutes = (date - savedDate) / (1000 * 60);
-
-        if (differenceInMinutes < 30) {
-            return true;
-        }
-
-        return false;
+    
+    const shiftDateContext = (newSerialDate) => {
+        return true;
     }
 
-    /**
-     * Load on mount.
-     * 
-     */
-    useEffect(() => {
-        setSerialDate(getSerialDate(date.getFullYear(), date.getMonth(), date.getDate()));
-        setDay(day_value_to_index(date.getDay()));
-        setHourMin(getHourMin(date.getHours(), date.getMinutes()));
-        setRecent(checkRecency());
-    }, []);
 
-    return { date, serialDate, day, hourMin, recent };
+
+
+    return { date, serialDate, day, hourMin, shiftDateContext };
 }
 
 export default useDateTime;

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { clean_text } from '../helpers/esthetics';
 import axios from 'axios';
-
+// import cats_data from '../cats_data.json';
 
 
 /**
@@ -9,7 +9,7 @@ import axios from 'axios';
  * @param {float} hourMin - same as above
  * @returns {Object} categories, implicitCategories, selectedCategories, and setSelectedCategories
  */
-const useCategories = (day, hourMin) => {
+const useCategories = (dateTime) => {
     // Data States    
     const [categories, setCategories] = useState([]);
     const [implicitCategories, setImplicitCategories] = useState(new Set());
@@ -17,6 +17,13 @@ const useCategories = (day, hourMin) => {
 
     // Get Categories on load
     useEffect(() => {
+        // const data = cats_data.map(item => ({
+        //     id: item.id,
+        //     name: clean_text(item.name),
+        //     description: clean_text(item.description),
+        //     count: item.count
+        // }));
+        // setCategories(data);
         axios.get('https://card.local/wp-json/wp/v2/merchant_categories/', {})
             .then((response) => {
                 console.log("Categories found...");

@@ -1,0 +1,330 @@
+[
+    {
+        "id": 19,
+        "count": 9,
+        "description": "",
+        "link": "https:\/\/card.local\/merchant_categories\/breakfast\/",
+        "name": "Breakfast",
+        "slug": "breakfast",
+        "taxonomy": "merchant_categories",
+        "parent": 0,
+        "meta": [],
+        "acf": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories\/19"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/taxonomies\/merchant_categories"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchants?merchant_categories=19"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "count": 12,
+        "description": "",
+        "link": "https:\/\/card.local\/merchant_categories\/cafes\/",
+        "name": "Cafes",
+        "slug": "cafes",
+        "taxonomy": "merchant_categories",
+        "parent": 0,
+        "meta": [],
+        "acf": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories\/18"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/taxonomies\/merchant_categories"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchants?merchant_categories=18"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 21,
+        "count": 17,
+        "description": "",
+        "link": "https:\/\/card.local\/merchant_categories\/dinner\/",
+        "name": "Dinner",
+        "slug": "dinner",
+        "taxonomy": "merchant_categories",
+        "parent": 0,
+        "meta": [],
+        "acf": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories\/21"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/taxonomies\/merchant_categories"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchants?merchant_categories=21"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 24,
+        "count": 5,
+        "description": "",
+        "link": "https:\/\/card.local\/merchant_categories\/fashion_and_cosmetics\/",
+        "name": "Fashion &amp; Cosmetics",
+        "slug": "fashion_and_cosmetics",
+        "taxonomy": "merchant_categories",
+        "parent": 0,
+        "meta": [],
+        "acf": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories\/24"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/taxonomies\/merchant_categories"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchants?merchant_categories=24"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 23,
+        "count": 4,
+        "description": "",
+        "link": "https:\/\/card.local\/merchant_categories\/groceries_and_supplies\/",
+        "name": "Groceries &amp; Supplies",
+        "slug": "groceries_and_supplies",
+        "taxonomy": "merchant_categories",
+        "parent": 0,
+        "meta": [],
+        "acf": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories\/23"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/taxonomies\/merchant_categories"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchants?merchant_categories=23"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "count": 23,
+        "description": "",
+        "link": "https:\/\/card.local\/merchant_categories\/lunch\/",
+        "name": "Lunch",
+        "slug": "lunch",
+        "taxonomy": "merchant_categories",
+        "parent": 0,
+        "meta": [],
+        "acf": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories\/20"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/taxonomies\/merchant_categories"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchants?merchant_categories=20"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 22,
+        "count": 6,
+        "description": "",
+        "link": "https:\/\/card.local\/merchant_categories\/sweets_and_treats\/",
+        "name": "Sweets &amp; Treats",
+        "slug": "sweets_and_treats",
+        "taxonomy": "merchant_categories",
+        "parent": 0,
+        "meta": [],
+        "acf": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories\/22"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/taxonomies\/merchant_categories"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchants?merchant_categories=22"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 25,
+        "count": 4,
+        "description": "",
+        "link": "https:\/\/card.local\/merchant_categories\/university_services\/",
+        "name": "University Services",
+        "slug": "university_services",
+        "taxonomy": "merchant_categories",
+        "parent": 0,
+        "meta": [],
+        "acf": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories\/25"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchant_categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/taxonomies\/merchant_categories"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/card.local\/wp-json\/wp\/v2\/merchants?merchant_categories=25"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

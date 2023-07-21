@@ -14,6 +14,14 @@ export function formatDate(now) {
 export function unadjust_hour(hour) {
   hour = hour + 4
 
+  if (hour === 24) {
+    return "Midnight";
+  }
+
+  if (hour === 12) {
+    return "Noon";
+  }
+
   let type = "am";
   if (hour == 24) {
     hour = 12;

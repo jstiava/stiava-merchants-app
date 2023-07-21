@@ -1,0 +1,34 @@
+{
+    "id": 8358,
+    "title": "WashU Campus Shuttle System",
+    "description": "Whether hopping onto the Campus Circulator to get around campus or one of the seven neighborhood shuttles that extend to areas to and from the core of campus, the WashU shuttle system makes it easy for students, faculty and staff to get where you want to go.",
+    "categories": [
+        25 // category_indeces
+    ],
+    "location": [
+        0,
+        0
+    ],
+    "venues": {
+        // All venues, calculate categories and schedule
+    },
+    "happenings": {
+        // Only currently happening or events occuring soon.
+    },
+    "schedule": {
+        "regular": false,
+        "special": null
+    },
+    "esthetics": {
+        "image": false,
+        "icon": false,
+        "icon_type": "use_text_only",
+        "primary_color": "#080b51",
+        "secondary_color": "#ffffff"
+    },
+    "links": {
+        "page": "http:\/\/card.local\/merchant\/washu-campus-shuttle-system\/",
+        "order": "",
+        "navigate": ""
+    }
+}
