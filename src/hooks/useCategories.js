@@ -24,7 +24,7 @@ const useCategories = (dateTime) => {
         //     count: item.count
         // }));
         // setCategories(data);
-        axios.get('https://card.local/wp-json/wp/v2/merchant_categories/', {})
+        axios.get('https://cardtest.local/wp-json/wp/v2/merchant_categories/', {})
             .then((response) => {
                 console.log("Categories found...");
                 const data = response.data.map(item => ({

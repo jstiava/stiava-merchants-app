@@ -4,9 +4,9 @@ import App from './App';
 
 
 // Clashing stylesheets
+import './styles/master.css'
 import './styles/testing.css'
 import './styles/animated.css'
-import './styles/master.css'
 import './styles/content.css'
 import './styles/header.css'
 

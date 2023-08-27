@@ -5,7 +5,7 @@ const reactPress = window.reactPress;
 const test = {
     "api": {
         "nonce": "e326b74669",
-        "rest_url": "http://card.local/wp-json/"
+        "rest_url": "http://cardtest.local/wp-json/"
     },
     "post": {
         "ID": 7645,
@@ -26,7 +26,7 @@ const test = {
         "post_modified_gmt": "2023-06-05 15:30:40",
         "post_content_filtered": "",
         "post_parent": 0,
-        "guid": "http://card.local/dining_react_app/",
+        "guid": "http://cardtest.local/dining_react_app/",
         "menu_order": 0,
         "post_type": "page",
         "post_mime_type": "",
@@ -39,7 +39,7 @@ const test = {
             "user_login": "root",
             "user_nicename": "root",
             "user_email": "dev-email@flywheel.local",
-            "user_url": "http://card.local",
+            "user_url": "http://cardtest.local",
             "user_registered": "2022-11-08 20:56:40",
             "user_activation_key": "",
             "user_status": "0",

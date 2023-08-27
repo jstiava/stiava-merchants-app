@@ -24,7 +24,7 @@ const useMerchantsDriver = () => {
         if (dateTime.serialDate === 0 || fetchFlag) {
             return;
         }
-        axios.get('https://card.local/wp-json/jsmp/v1/merchants', {
+        axios.get('https://cardtest.local/wp-json/jsmp/v1/merchants', {
             params: {
                 day: dateTime.day,
                 date: dateTime.serialDate,
